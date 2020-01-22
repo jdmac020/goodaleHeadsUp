@@ -18,3 +18,13 @@ So that we can contribute to high employee delight among our peers through lower
 I want to provide value **using technologies I do not typically have an opportunity to work in**,
 
 So that I can *broaden my technical acumen* on an exercise that *feels more valuable than tutorials*.
+
+# To run this application:
+
+1. Make sure you have Nodejs
+
+* If not, follow the instructions to download it [here](https://nodejs.org/en/download/)
+
+2. Navigate into the directory for the app, and run `yarn start`
+
+3. Visit localhost:3000 to view the app
