@@ -21,9 +21,11 @@ So that I can *broaden my technical acumen* on an exercise that *feels more valu
 
 # To run this application:
 
-1. Make sure you have Nodejs
+1. Make sure you have Nodejs installed or have Create React App installed
 
-* If not, follow the instructions to download it [here](https://nodejs.org/en/download/)
+* Download Nodejs [here](https://nodejs.org/en/download/)
+
+* Run this command to install Create React App: `npm install -g create-react-app`
 
 2. Navigate into the directory for the app, and run `yarn start`
 
