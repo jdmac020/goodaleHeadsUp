@@ -4,7 +4,7 @@ import './App.css';
 export default function App() {
   return (
     <Fragment>
-      Number of spaces: 544
+      <h1 id="count">Number of spaces: 544</h1>
     </Fragment>
   );
 }
