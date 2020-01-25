@@ -27,6 +27,12 @@ So that I can *broaden my technical acumen* on an exercise that *feels more valu
 
 * Run this command to install Create React App: `npm install -g create-react-app`
 
+    - Be sure to run `yarn install` after this step
+
 2. Navigate into the directory for the app, and run `yarn start`
 
 3. Visit localhost:3000 to view the app
+
+# To test React for this application:
+
+1. Make sure you are in the parent folder for the React application, and run: `yarn test`
