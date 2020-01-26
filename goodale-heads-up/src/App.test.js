@@ -11,6 +11,6 @@ describe('App', () => {
     });
     it('renders the Count component', () => {
         const { getByText } = render(<App />);
-        expect(getByText('Hello')).toBeInTheDocument();
+        expect(getByText('Number of spaces: 544')).toBeInTheDocument();
     });
 });
