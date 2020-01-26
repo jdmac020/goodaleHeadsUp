@@ -18,3 +18,21 @@ So that we can contribute to high employee delight among our peers through lower
 I want to provide value **using technologies I do not typically have an opportunity to work in**,
 
 So that I can *broaden my technical acumen* on an exercise that *feels more valuable than tutorials*.
+
+# To run this application:
+
+1. Make sure you have Nodejs installed or have Create React App installed
+
+* Download Nodejs [here](https://nodejs.org/en/download/)
+
+* Run this command to install Create React App: `npm install -g create-react-app`
+
+    - Be sure to run `yarn install` after this step
+
+2. Navigate into the directory for the app, and run `yarn start`
+
+3. Visit localhost:3000 to view the app
+
+# To test React for this application:
+
+1. Make sure you are in the parent folder for the React application, and run: `yarn test`
