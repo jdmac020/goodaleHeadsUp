@@ -1,22 +1,22 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies
-/node_modules
-/.pnp
-.pnp.js
+/goodale-heads-up/node_modules
+/goodale-heads-up/.pnp
+/goodale-heads-up/.pnp.js
 
 # testing
-/coverage
+/goodale-heads-up/coverage
 
 # production
-/build
+/goodale-heads-up/build
 
 # misc
-.DS_Store
-.env.local
-.env.development.local
-.env.test.local
-.env.production.local
+/goodale-heads-up/.DS_Store
+/goodale-heads-up/.env.local
+/goodale-heads-up/.env.development.local
+/goodale-heads-up/.env.test.local
+/goodale-heads-up/.env.production.local
 
 npm-debug.log*
 yarn-debug.log*
