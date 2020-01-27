@@ -1,11 +1,15 @@
 language: node_js
 node_js:
-  - 12.10.0
+- 12.10.0
 dist: trusty
 before_install:
-  - curl -o- -L https://yarnpkg.com/install.sh | bash -s -- --version 1.19.0
-  - export PATH="$HOME/.yarn/bin:$PATH"
+- curl -o- -L https://yarnpkg.com/install.sh | bash -s -- --version 1.19.0
+- export PATH="$HOME/.yarn/bin:$PATH"
 script:
-    - cd /home/travis/build/jdmac020/goodaleHeadsUp/goodale-heads-up/
-    - yarn install
-    - yarn test
+- cd /home/travis/build/jdmac020/goodaleHeadsUp/goodale-heads-up/
+- yarn install
+- yarn test
+deploy:
+  provider: heroku
+  api_key:
+    secure: nROGWI7rkeN95lDH5Fmn8DvvHWNQhIiFfEuGwn6H8I0LxYrt9K1GH7et0qjtLpC9QBi/suBL54UEW1K14acxNKRA6OQrrwcP72Q/IYi/VCcd823IfR2f82MqIoQsQ/4EzRoBnqiteTWmu38Xiy8K8T9alkYbjoJRPHWkJXmSksQsx8eot4jG86QwnJwD+FeynEGK6l2mVOX9EbcMmdKjHPQeQtY9OqRW5/KwymO8nyzIbT6NrYxAdYBjBEX2WwoQEBnj/IcDKR0BKLw/A+C+vILF7ZrVSin1cNN5K12V5V2i74HVKzkCfFJlsQ5i3x9BE0WOi365UM5BiGyaP7Y51WqIcoAZiaHXADxlWn+WGWEm/T1GA5S5NW6fEg3nShGERcaDWsCmenV9Y0Y6riPhkx/HJuGikiEeDnMnensD5ANOvZOPY1BV3xWtl7h8sdsvteFYr0iISvzKDI+6uQrzvRjcS158eEpq4mXi7ufYCZ/QZnnSgvbTUUhSW8nJfrjQCTgZ6shCHLZExkInIDcMImDYLzy2Wg9yyvvaPkU+bI07u2zqQ3xfI4DeZJW2YGKe+qXCZ2Rqd/Llv/QSSnNoR26/QU9yg80T3Ecusg071zPC5YxCCPzu1ct4HZOiXXxJ2GvpuDw/7jxxaho0IZ2Y2ERT9YjppXuAGE2P+F1YkDE=
