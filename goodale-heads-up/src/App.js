@@ -1,10 +1,13 @@
 import React, { Fragment } from 'react';
-import './App.css';
 import Count from './Count';
+import NavBar from './NavBar';
 
 export default function App() {
   return (
-    <Count />
+    <Fragment>
+      <NavBar />
+      <Count />
+    </Fragment>
   );
 }
 
