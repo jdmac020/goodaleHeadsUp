@@ -1,5 +1,5 @@
 import React, { Fragment } from 'react';
-import './NavBar.css';
+import './assets/css/NavBar.css';
 import { Navbar, Nav } from 'react-bootstrap';
 // import Icon from '@mdi/react'
 // import { mdiCarHatchback } from '@mdi/js'
