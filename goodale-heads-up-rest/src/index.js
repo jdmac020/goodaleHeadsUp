@@ -1,27 +1,32 @@
 import express from 'express';
 import 'dotenv/config';
 import cors from 'cors';
-import callMyFunction from './services/exampleService.js';
+import spaceCount from './services/spaceService.js';
 
 const app = express();
 const portNumber = process.env.PORT;
 
-console.log('I AM COUNTING SPACES HERE!\nLike nonstop. On a loop. For reasons.\n');
-
-callMyFunction(() => {
-    console.log("This is inside a higher-order function, y'all.\n");
-});
-
-console.log(process.env.MY_SECRET_FIELD);
-
 app.use(cors());
 
 app.get('/', (req, res) => {
-    res.send('We are counting spaces SO HARD right now!');
+    res.send('We are counting spaces SO HARD right now! Try navigating to \"/spaces\" to see how we\'re doing!');
   });
 
-app.get('/test', (req, res) => {
-    res.send('We are unit testing literally everything, even getters and setters.');
+app.get('/spaces', (req, res) => {
+    return res.send(`There are currently ${spaceCount()} spaces available!`);
+  });
+
+// I have no idea if these are even worth defining...seems thorough, but who knows?
+app.post('/spaces', (req, res) => {
+    return res.send('POST HTTP method unused');
+});
+
+app.put('/spaces', (req, res) => {
+    return res.send('PUT HTTP method unused');
+});
+
+app.delete('/spaces', (req, res) => {
+    return res.send('DELETE HTTP method unused');
 });
 
 // Tick mark instead of quotes to get interpolation
