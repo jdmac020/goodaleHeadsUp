@@ -1,5 +1,5 @@
 import { expect } from 'chai';
-import spaceCount from './spaceService.js';
+import spaceCount from '../services/spaceService.js';
 
 describe('SpaceCount Should', () => {
 
