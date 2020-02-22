@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/jdmac020/goodaleHeadsUp.svg?branch=master)](https://travis-ci.org/jdmac020/goodaleHeadsUp)
+
 # goodaleHeadsUp
 Sometimes the garage is a mess. Other times it is not. A heads-up would be nice.
 
