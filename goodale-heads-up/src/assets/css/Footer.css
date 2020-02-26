@@ -1,19 +1,16 @@
 footer {
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    right: 0;
+    width:100%;
     text-align: center;
     color: #fff;
     background-color: #474c9e;
-    padding-top:1.5em;
+    padding:1.5em 0;
 }
 footer a {
     padding: 0 10px;
     color: #fff;
 }
 footer p {
-    margin: .5em 0 1.5em;
+    margin-bottom: 0;
 }
 footer a:hover {
     color: #d9d9d9;

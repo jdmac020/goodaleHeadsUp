@@ -1,22 +1,22 @@
 import React, { Fragment } from 'react';
 
-export default function Count() {
+export default function Chaos() {
   return (
 
     // a better way to handle this might be to have a card component and just plug in the different information for the different cards
-
-    <div class="card" id="count">
+    
+    <div class="card" id="chaos">
     <div class="card-count-container">
-      <div class="card-count">&#10003;</div>
+      <div class="card-count">X</div>
     </div>
     
     <div class="card-content">
-      <h2>Current Spaces</h2>
-      <h2>544</h2>
+      <h2>Chaos Level</h2>
+      Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis iste vel accusamus sequi laboriosam.
     </div>
     
     <div class="card-footer">
-        Amazing in every way
+        It does NOT look good
     </div>
   </div>
   );

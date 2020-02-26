@@ -5,6 +5,7 @@
     background-size: cover;
     position: relative;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
@@ -32,3 +33,15 @@
       font-size:46px;
       letter-spacing:1.5px;
   }
+
+  .hero h2 {
+    position: relative;
+    z-index: 1;
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.54);
+    font-size:30px;
+    letter-spacing:1.5px;
+}
