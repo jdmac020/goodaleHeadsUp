@@ -9,7 +9,7 @@ import Chaos from './Chaos';
 
 export default function Body() {
   return (
-    <div class="card-container">
+    <div className="card-container">
       <Count />
       <Events />
       <Chaos />

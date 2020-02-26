@@ -5,17 +5,17 @@ export default function Count() {
 
     // a better way to handle this might be to have a card component and just plug in the different information for the different cards
 
-    <div class="card" id="count">
-    <div class="card-count-container">
-      <div class="card-count">&#10003;</div>
+    <div className="card" id="count">
+    <div className="card-count-container">
+      <div className="card-count">&#10003;</div>
     </div>
     
-    <div class="card-content">
+    <div className="card-content">
       <h2>Current Spaces</h2>
       <h2>544</h2>
     </div>
     
-    <div class="card-footer">
+    <div className="card-footer">
         Amazing in every way
     </div>
   </div>

@@ -2,7 +2,6 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import { render } from '@testing-library/react';
 import App from './App';
-import Count from './Count';
 
 describe('App', () => {
     it('renders without crashing', () => {
@@ -11,6 +10,14 @@ describe('App', () => {
     });
     it('renders the Count component', () => {
         const { getByText } = render(<App />);
-        expect(getByText('Number of spaces: 544')).toBeInTheDocument();
+        expect(getByText('Current Spaces')).toBeInTheDocument();
+    });
+    it('renders the Events component', () => {
+        const { getByText } = render(<App />);
+        expect(getByText('Events')).toBeInTheDocument();
+    });
+    it('renders the Chaos component', () => {
+        const { getByText } = render(<App />);
+        expect(getByText('Chaos Level')).toBeInTheDocument();
     });
 });
