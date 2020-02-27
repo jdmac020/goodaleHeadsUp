@@ -12,7 +12,7 @@ script:
 - cd /home/travis/build/jdmac020/goodaleHeadsUp/goodale-heads-up-rest/
 - npm install
 - npm test
-- cd /home/travis/build/jdmac020/goodaleHeadsUp/goodale-heads-up-rest/
+- cd /home/travis/build/jdmac020/goodaleHeadsUp/goodale-heads-up/
 deploy:
   provider: heroku
   api_key:
