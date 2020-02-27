@@ -1,10 +1,17 @@
 import React, { Fragment } from 'react';
-import './App.css';
-import Count from './Count';
+import Body from './Body';
+import NavBar from './NavBar';
+import Footer from './Footer';
+import Hero from './Hero';
 
 export default function App() {
   return (
-    <Count />
+    <Fragment>
+      <NavBar />
+      <Hero />
+      <Body />
+      <Footer />
+    </Fragment>
   );
 }
 

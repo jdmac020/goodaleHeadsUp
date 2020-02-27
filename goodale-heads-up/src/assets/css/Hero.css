@@ -1,0 +1,47 @@
+.hero {
+    background-image: url('../images/birdseyeview.jpg');
+    background-position: center;
+    height: 300px;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.overlay:before{
+    position: absolute;
+    content:" ";
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    display: block;
+    z-index:0;
+    background-color: rgba(0,0,0,0.3);
+    z-index:0;
+  }
+  .hero h1 {
+      position: relative;
+      z-index: 1;
+      color: #fff;
+      font-family: 'Raleway', sans-serif;
+      text-transform: uppercase;
+      font-weight: 700;
+      text-shadow: 2px 2px 5px rgba(0,0,0,0.54);
+      font-size:46px;
+      letter-spacing:1.5px;
+  }
+
+  .hero h2 {
+    position: relative;
+    z-index: 1;
+    color: #fff;
+    font-family: 'Raleway', sans-serif;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-shadow: 2px 2px 5px rgba(0,0,0,0.54);
+    font-size:30px;
+    letter-spacing:1.5px;
+}
