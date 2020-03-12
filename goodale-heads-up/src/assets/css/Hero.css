@@ -30,7 +30,7 @@
       text-transform: uppercase;
       font-weight: 700;
       text-shadow: 2px 2px 5px rgba(0,0,0,0.54);
-      font-size:46px;
+      font-size:26px;
       letter-spacing:1.5px;
   }
 
@@ -42,6 +42,14 @@
     text-transform: uppercase;
     font-weight: 700;
     text-shadow: 2px 2px 5px rgba(0,0,0,0.54);
-    font-size:30px;
+    font-size:20px;
     letter-spacing:1.5px;
+}
+@media (min-width: 768px){
+    .hero h1 {
+        font-size: 46px;
+    }
+    .hero h2 {
+        font-size: 30px;
+    }
 }

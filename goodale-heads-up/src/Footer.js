@@ -5,14 +5,7 @@ import './assets/css/Footer.css';
 export default function Footer() {
   return (
     <footer>
-      <div>
-        <a href="#">Link</a>
-        |
-        <a href="#">Link</a>
-        |
-        <a href="#">Link</a>
-      </div>
-      <p>&copy; 2020 Some Name Here</p>
+      <p>&copy; 2020 Goodale Heads Up | MacGregor</p>
     </footer>
   );
 }
