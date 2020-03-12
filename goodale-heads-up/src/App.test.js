@@ -16,14 +16,6 @@ describe('App', () => {
         const { getByText } = render(<App />);
         expect(getByText('Current Spaces')).toBeInTheDocument();
     });
-    it('renders the Events component', () => {
-        const { getByText } = render(<App />);
-        expect(getByText('Events')).toBeInTheDocument();
-    });
-    it('renders the Chaos component', () => {
-        const { getByText } = render(<App />);
-        expect(getByText('Chaos Level')).toBeInTheDocument();
-    });
     // it('renders the Footer component', () => {
     //     const { getByText } = render(<App />);
     //     expect(getByText('© 2020')).toBeInTheDocument();
