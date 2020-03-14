@@ -5,7 +5,7 @@ export default function Count() {
 
     // a better way to handle this might be to have a card component and just plug in the different information for the different cards
 
-    <div className="card" id="count">
+    <div className="status-card" id="count">
     <div className="card-count-container">
       <div className="card-count">&#10003;</div>
     </div>
