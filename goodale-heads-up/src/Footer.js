@@ -5,7 +5,7 @@ import './assets/css/Footer.css';
 export default function Footer() {
   return (
     <footer>
-      <p>&copy; 2020 Goodale Heads Up | MacGregor</p>
+      <p>&copy; 2020 Goodale Heads Up | Paige MacGregor and John MacGregor</p>
     </footer>
   );
 }
